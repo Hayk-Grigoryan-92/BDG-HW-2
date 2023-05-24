@@ -13,8 +13,10 @@
 //         return console.log(result);
 //     }
 //     if(arr.length>1){
+//         let x = []
 //         arr[0] = arr[1]
-//         arr.shift()
+//         var i = index
+//        return x = [...arr.slice(0, i)]
 //        console.log(arr);
 //     }
 //     deleteElement(arr)
@@ -22,9 +24,9 @@
 
 //  deleteElement(array)
 
- ///////////////////////////////////////////////  aranc shift() chem karoxacel
+//  ///////////////////////////////////////////////  aranc shift() chem karoxacel
 
- // Task 3
+// //  Task 3
 
 //  function sumNumberElement (num){
 
@@ -36,11 +38,12 @@
 //     let sum = 0
 //     for(let i = 0; i < arrNumber.length; i++){
 //         sum +=arrNumber[i] 
-//     }
-//     console.log(sum);   
+//     }   
     
 //     if(sum>9){
-//         sumNumberElement(sum)
+//        return sumNumberElement(sum)
+//     }else{
+//         return console.log(sum);
 //     }
     
 // }
@@ -50,3 +53,22 @@
  //////////////////////////////////////////////////////////////////
 
 
+// Task 4
+
+// let data = {
+//     a: '1',
+//     b: '2',
+//     c: '3',
+//     d: '3',
+//     e: '5'
+// };
+
+// let reversedData = (object) => Object.fromEntries(
+//     Object
+//       .entries(object)
+//       .map(([key, value]) => [value, key])
+//     );
+
+//    console.log(reversedData(data));
+
+   ///////////////////////////////////////////////////////////////////
